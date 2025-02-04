@@ -32,7 +32,7 @@ The pressure at the exit of the runner of Francis Turbine is generally less than
 ●	The advantages of the Francis turbine include the following:<br>
 ●	Wear and tear had delayed effect on efficiency of Francis turbine compared to Pelton turbine<br>
 ●	Operating head variation can be simply controlled in Francis turbine<br>
-●	Even at the low discharge of water, head failure does not occur
+●	Even at the low discharge of water, head failure does not occur <br>
 ●	Runner and generator size is small.<br>
 ●	Only little changes in efficiency over the time<br>
 ●	Operating head can be utilized even when the variation in tailwater level is relatively large when compared to the total head.<br><br>
