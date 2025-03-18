@@ -1,5 +1,6 @@
 //Your JavaScript goes in here
 var enableButton=document.getElementById("enable");
+var highlightArrow = document.getElementById("highlight-arrow");
 var purzeButton=document.getElementById("purze")
 var valvePositioning = document.querySelector("#flow-rate-slider")
 var svg=document.getElementById("Layer_1");
@@ -36,6 +37,7 @@ var h2 = document.getElementById("Handle_P2")
 var h3 = document.getElementById("Handle_P3")
 var h4 = document.getElementById("Handle_P4")
 var h5 = document.getElementById("Handle_P5")
+var currentHighlightedElement = enableButton
 
 function power(){
     if(count==0){
@@ -44,6 +46,7 @@ function power(){
         enableButton.textContent = "POWER OFF"
         count=1
         waterFlow1()
+        highlightArrow.style.display = "none";
     }else{
         if(!window.appData.powerFlag){
             alert("Please complete the experiment to turn power off!");
@@ -100,6 +103,7 @@ function waterFlow3(){
     setTimeout(function(){
         purzeButton.disabled = false;
         document.getElementById("steps").innerHTML = "Click On Flow Valve On."
+        highlightArrowFn(purzeButton);
     },8000);
 }
 function waterFlow4(){
@@ -118,6 +122,7 @@ function waterFlow4(){
     },2000);
 }
 function purzeAction(){
+    highlightArrow.style.display = "none";
     waterFlow4()   
     purzeButton.disabled= true;
 }
@@ -192,6 +197,7 @@ function waterFlow7(){
         setTimeout(function() {
             waterFlow8()
             document.getElementById("steps").innerHTML = "Select the brake weight value of 5 kg for the first reading."
+            highlightArrowFn(weightSelection)
         }, 1000);
 }
 function waterFlow8(){
@@ -269,18 +275,21 @@ function updateBrakeWeight(){
         w1Text.textContent = "3.0 kg";
         w2Text.textContent = "0.3 kg";
         document.getElementById("steps").innerHTML = "Set the value of vane opening for 3kg brake weight to 2. "
+        highlightArrowFn(valvePositioning)
     }if(selectedWeight == 5){
         if(weightflag==0){
             rpmText.textContent = "900"
             w2Text.textContent = "5.0 kg"; 
             w1Text.textContent = "1.4 kg";
             document.getElementById("steps").innerHTML = "Set the value of vane opening for 5kg brake weight to 1."
+            highlightArrowFn(valvePositioning)
             weightflag = 1
         }else{
             rpmText.textContent = "800"
             w2Text.textContent = "5.0 kg"; 
             w1Text.textContent = "2.0 kg";
             document.getElementById("steps").innerHTML = "Set the value of vane opening for 5kg brake weight to 3."
+            highlightArrowFn(valvePositioning)
             weightflag == 0
         }
     }if(selectedWeight == 6){
@@ -288,6 +297,7 @@ function updateBrakeWeight(){
         w2Text.textContent = "6.0 kg";
         w1Text.textContent = "2.4 kg";
         document.getElementById("steps").innerHTML = "Set the value of vane opening for 6kg brake weight to 4."
+        highlightArrowFn(valvePositioning)
     }
     if(selectedWeight == 0){
         rpmText.textContent = "0"
@@ -309,6 +319,7 @@ function updateValvePositioning(){
         p1Text.textContent = "1.4"
         p2Text.textContent= "0.19"
         document.getElementById("steps").innerHTML = "Again, set the value of brake weight to 3 kg for second reading. "
+        highlightArrowFn(weightSelection)
     }if(valvePositioning.value == 2){
         h1.setAttribute("opacity","0")
         h2.setAttribute("opacity","0")
@@ -316,6 +327,7 @@ function updateValvePositioning(){
         h4.setAttribute("opacity","0")
         h5.setAttribute("opacity","0")
         document.getElementById("steps").innerHTML = "Again, set the value of brake weight to 5 kg for second reading. "
+        highlightArrowFn(weightSelection)
         rpmText.textContent = "1024"
         p1Text.textContent = "2.1"
         p2Text.textContent= "0.28"
@@ -326,6 +338,7 @@ function updateValvePositioning(){
         h4.setAttribute("opacity","1")
         h5.setAttribute("opacity","0")
         document.getElementById("steps").innerHTML = "Again, set the value of brake weight to 6 kg for second reading. "
+        highlightArrowFn(weightSelection)
         rpmText.textContent = "910"
         p1Text.textContent = "2.63"
         p2Text.textContent= "0.44"
@@ -336,6 +349,7 @@ function updateValvePositioning(){
         h4.setAttribute("opacity","0")
         h5.setAttribute("opacity","1")
         document.getElementById("steps").innerHTML = "Now, Use further readings to calculate efficiency"
+        highlightArrow.style.display = "none"
         rpmText.textContent = "858"
         p1Text.textContent = "3.21"
         p2Text.textContent= "0.48"
@@ -351,3 +365,23 @@ function updateValvePositioning(){
     weightSelection.disabled = false;
 
 }
+
+function highlightArrowFn(element) {
+    if (element) {
+      let rect = element.getBoundingClientRect();
+      highlightArrow.style.left = `${
+        rect.left + window.scrollX + rect.width / 2 - 25
+      }px`;
+      highlightArrow.style.top = `${rect.top + window.scrollY - 50}px`;
+      highlightArrow.style.display = "block";
+      currentHighlightedElement = element;
+    }
+  }
+  
+  document.addEventListener("DOMContentLoaded", () =>
+    highlightArrowFn(enableButton)
+  );
+
+  window.addEventListener('resize', function() {
+    highlightArrowFn(currentHighlightedElement); // Recalculate position of the arrow when the window resizes
+  });
