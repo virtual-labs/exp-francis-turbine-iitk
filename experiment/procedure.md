@@ -9,7 +9,7 @@
 6.	Rope brake dynamometer with spring balance connected to the turbine shaft.<br><br>
 
 <b>	Procedure – </b><br>
-1. Note the inlet and outlet pipe diameters and measure the brake drum diameter and Z<sub>1</sub> and Z<sub>2</sub> i.e. the distances of inlet and outlet pressures gauge tapings from the centerline of the turbine.<br><br>
+1. Note the inlet and outlet pipe diameters and measure the brake drum diameter and Z<sub>1</sub> and Z<sub>2</sub> i.e. the distances of inlet and outlet pressures gauge tappings from the centerline of the turbine.<br><br>
 2. Start the supply pump, keeping the guide vanes completely closed<br><br>
 3. Open the guide vanes partially (e.g.  1⁄4 or 1⁄2   of total opening),<br><br>
 4. Measure the discharge Q <br><br>
@@ -32,15 +32,15 @@ Z<sub>2</sub>  =Distance of inlet pressure gauge from turbine axis
 w = Specific weight of water<br><br>
 3. Input power: P<sub>i</sub>=(w×Q×H)/75 <br><br>
 4. Output Power: P<sub>o</sub>=((W-S)×π×D×N)/4500<br><br>
-Where, D = Mean Diameter of the break drum<br><br>
+Where, D = Mean Diameter of the brake drum<br><br>
 N = Speed of motor in RPM<br><br>
 5. η=P<sub>o</sub>/P<sub>i</sub> ×100<br><br>
 
 <b>Observations -</b><br>
-1. Mean Diameter of the break drum, D(D<sub>d</sub> + D<sub>r</sub>) = 
+1. Mean Diameter of the brake drum, D(D<sub>d</sub> + D<sub>r</sub>) = 
 Where D<sub>d</sub> = diameter of the drum, Dr = diameter of rope<br>
 2. Dia. of Inlet pipe, d<sub>1</sub>  = 65 mm<br>
-3. ia. of outlet pipe, d<sub>2</sub> = 38.45 mm<br>
+3. Dia. of outlet pipe, d<sub>2</sub> = 38.45 mm<br>
 4. Distance of inlet pressure gauge from turbine axis Z<sub>1</sub>  =<br>
 5. Distance of inlet pressure gauge from turbine axis Z<sub>2</sub>  =<br>
 6.Venturi meter constant,  k = 35.7  Q=k √h <br>  
@@ -52,6 +52,6 @@ Where D<sub>d</sub> = diameter of the drum, Dr = diameter of rope<br>
 3. Input power: P<sub>i</sub>=(w×Q×H)/75 <br>
 4. Output Power: P<sub>o</sub>=((W-S)×π×D×N)/4500<br>
 5. η=P<sub>o</sub>/P<sub>i</sub> ×100<br>
-6. Plot the following curves and determine the efficiency of the Kaplan turbine<br>
+6. Plot the following curves and determine the efficiency of the Francis turbine<br>
 a. Efficiency Vs. Speed<br>
 b. Efficiency Vs. Power Output
