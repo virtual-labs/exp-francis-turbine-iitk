@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2.……………………. is defined as the ratio between the power available at the shaft to the power supplied by water at the inlet",
+      "question": "2.…………………… is defined as the ratio between the power available at the shaft to the power supplied by water at the inlet",
       "answers": {
         "a": "Hydraulic efficiency",
         "b": "Volumetric efficiency",
@@ -57,7 +57,7 @@
       "answers": {
         "a": "Hydraulic efficiency",
         "b": "Volumetric efficiency",
-        "c": "Mechanical efficiencyanswer3",
+        "c": "Mechanical efficiency",
         "d": "Overall efficiency"
       },
       "explanations": {
