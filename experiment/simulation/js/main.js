@@ -279,23 +279,23 @@ function updateBrakeWeight(){
     }if(selectedWeight == 5){
         if(weightflag==0){
             rpmText.textContent = "900"
-            w2Text.textContent = "5.0 kg"; 
-            w1Text.textContent = "1.4 kg";
+            w2Text.textContent = "1.4 kg"; 
+            w1Text.textContent = "5.0 kg";
             document.getElementById("steps").innerHTML = "Set the value of vane opening for 5kg brake weight to 1."
             highlightArrowFn(valvePositioning)
             weightflag = 1
         }else{
             rpmText.textContent = "800"
-            w2Text.textContent = "5.0 kg"; 
-            w1Text.textContent = "2.0 kg";
+            w2Text.textContent = "2.0 kg"; 
+            w1Text.textContent = "5.0 kg";
             document.getElementById("steps").innerHTML = "Set the value of vane opening for 5kg brake weight to 3."
             highlightArrowFn(valvePositioning)
             weightflag == 0
         }
     }if(selectedWeight == 6){
         rpmText.textContent = "750"
-        w2Text.textContent = "6.0 kg";
-        w1Text.textContent = "2.4 kg";
+        w2Text.textContent = "2.4 kg";
+        w1Text.textContent = "6.0 kg";
         document.getElementById("steps").innerHTML = "Set the value of vane opening for 6kg brake weight to 4."
         highlightArrowFn(valvePositioning)
     }
