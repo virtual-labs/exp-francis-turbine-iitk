@@ -101,17 +101,17 @@ function calculate(){
 
         if(t7.querySelector("input").value!=50 ){
             t7.querySelector("input").style.color = "red"
-            flag= true
+            flag=false
         }
         if(t8.querySelector("input").value!=2.1 ){
             t8.querySelector("input").style.color = "red"
-            flag= true
+            flag=false
         }
        
 
         if(t9.querySelector("input").value!=0.28 ){
             t9.querySelector("input").style.color = "red"
-            flag= true
+            flag=false
         }
 
 
@@ -227,20 +227,14 @@ function calculate(){
         }
 
         if(t32.querySelector("input").value != 53.50){
-            t32.querySelector("input").style.color = "black"
-            flag= true
-        }else{
             t32.querySelector("input").style.color = "red"
-            flag= false
+            flag=false
         }
 
 
         if(t33.querySelector("input").value != 0.001855249745 ){
-            t33.querySelector("input").style.color = "black"
-            flag= true
-        }else{
             t33.querySelector("input").style.color = "red"
-            flag= false
+            flag=false
         }
 
         if(t34.querySelector("input").value!=1.538){
@@ -272,11 +266,8 @@ function calculate(){
         }
 
         if(t40.querySelector("input").value != 0.002232415902 ){
-            t40.querySelector("input").style.color = "black"
-            flag= true
-        }else{
             t40.querySelector("input").style.color = "red"
-            flag= false
+            flag=false
         }
 
         if(t41.querySelector("input").value!=1.687){
@@ -307,11 +298,8 @@ function calculate(){
             flag=false
         }
         if(t47.querySelector("input").value != 0.002782874618 ){
-            t47.querySelector("input").style.color = "black"
-            flag= true
-        }else{
             t47.querySelector("input").style.color = "red"
-            flag= false
+            flag=false
         }
 
 
