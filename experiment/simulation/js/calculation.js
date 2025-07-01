@@ -186,7 +186,7 @@ function calculate(){
             flag=false
         }
 
-        if(t25.querySelector("input").value != 0.00123343527 ){
+        if(t25.querySelector("input").value != 0.001233435 ){
             t25.querySelector("input").style.color = "black"
             flag= true
         }else{
@@ -232,7 +232,7 @@ function calculate(){
         }
 
 
-        if(t33.querySelector("input").value != 0.001855249745 ){
+        if(t33.querySelector("input").value != 0.00185525 ){
             t33.querySelector("input").style.color = "red"
             flag=false
         }
@@ -265,7 +265,7 @@ function calculate(){
             flag=false
         }
 
-        if(t40.querySelector("input").value != 0.002232415902 ){
+        if(t40.querySelector("input").value != 0.002232416 ){
             t40.querySelector("input").style.color = "red"
             flag=false
         }
@@ -297,7 +297,7 @@ function calculate(){
             t46.querySelector("input").style.color="red"
             flag=false
         }
-        if(t47.querySelector("input").value != 0.002782874618 ){
+        if(t47.querySelector("input").value != 0.002782875 ){
             t47.querySelector("input").style.color = "red"
             flag=false
         }
@@ -337,7 +337,7 @@ function calculate(){
               window.appData.powerFlag=true
             alert("Congratulations! You have successfully completed the experiment.");
         }else{
-            document.querySelector(".result-table").style.display = "flex"
+            document.querySelector(".result-table").style.display = "table"
         }
     }
 
