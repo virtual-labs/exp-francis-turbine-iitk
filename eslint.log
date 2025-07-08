@@ -1,0 +1,22 @@
+
+/home/runner/work/exp-francis-turbine-iitk/exp-francis-turbine-iitk/experiment/simulation/js/calculation.js
+   56:10  warning  'calculate' is defined but never used        no-unused-vars
+   72:14  warning  'checkYourResult' is defined but never used  no-unused-vars
+  334:17  warning  'confetti' is not defined                    no-undef
+  347:14  warning  'exportToExcel' is defined but never used    no-unused-vars
+  348:18  warning  'XLSX' is not defined                        no-undef
+  365:32  warning  'XLSX' is not defined                        no-undef
+  366:9   warning  'XLSX' is not defined                        no-undef
+  383:32  warning  'XLSX' is not defined                        no-undef
+  384:9   warning  'XLSX' is not defined                        no-undef
+  387:9   warning  'XLSX' is not defined                        no-undef
+
+/home/runner/work/exp-francis-turbine-iitk/exp-francis-turbine-iitk/experiment/simulation/js/main.js
+    6:5   warning  'svg' is assigned a value but never used            no-unused-vars
+   42:10  warning  'power' is defined but never used                   no-unused-vars
+  124:10  warning  'purzeAction' is defined but never used             no-unused-vars
+  271:10  warning  'updateBrakeWeight' is defined but never used       no-unused-vars
+  311:10  warning  'updateValvePositioning' is defined but never used  no-unused-vars
+
+✖ 15 problems (0 errors, 15 warnings)
+
