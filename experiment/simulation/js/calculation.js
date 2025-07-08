@@ -337,7 +337,7 @@ function calculate(){
               window.appData.powerFlag=true
             alert("Congratulations! You have successfully completed the experiment.");
         }else{
-            document.querySelector(".result-table").style.display = "table"
+            document.querySelector(".result-table-l").style.display = "table"
         }
     }
 
