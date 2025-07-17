@@ -1,4 +1,4 @@
-<b>Introduction</b><br><br>
+### <b>Introduction</b><br><br>
 <image src="images/image1.png"><br><br>
 The Francis turbine is a type of mixed flow reaction turbine. It became known as the Francis turbine around 1920, being named after British-American engineer James B. Francis who in 1920  created a new turbine design. This turbine is used for medium heads ranging from 40 m to 600 m with medium discharge. Water enters the runner and flows towards the center of the wheel in the radial direction and leaves parallel to the axis of the turbine. Francis turbines are the most common water turbine in use today and are primarily used for electrical power production. The power output which generally for Francis turbine ranges from just a few kilowatts up to 800 MW. <br><br>
 <b>Main parts of a Francis Turbine</b><br>
