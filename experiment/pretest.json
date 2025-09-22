@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1) Which one of the following statements is true?",
+      "question": " “1.” Which one of the following statements is true?",
       "answers": {
         "a": "Both Pelton and Francis turbine are impulse turbine",
         "b": "Kaplan turbine is radial flow reaction turbine",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2) For which of the following minimum values of available heads, Francis turbine may be used?",
+      "question": " “2.” For which of the following minimum values of available heads, Francis turbine may be used?",
       "answers": {
         "a": "250 m",
         "b": "150 m",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3) Which turbine has maximum number of blades:",
+      "question": " “3.” Which turbine has maximum number of blades:",
       "answers": {
         "a": "Pelton",
         "b": "Francis",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4) In Francis turbine, pressure at inlet is <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> than the pressure at outlet:",
+      "question": " “4.” In Francis turbine, pressure at inlet is <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> than the pressure at outlet:",
       "answers": {
         "a": "greater",
         "b": "same",
@@ -61,7 +61,7 @@
         "d": "either greater and equal"
       },
       "explanations": {
-        "a": "The correct answer is “greater”. In a Francis turbine, the pressure at the inlet is higher than the pressure at the outlet because the water loses its pressure energy as it flows through the turbine, converting it to mechanical energy.>",
+        "a": "The correct answer is “greater”. In a Francis turbine, the pressure at the inlet is higher than the pressure at the outlet because the water loses its pressure energy as it flows through the turbine, converting it to mechanical energy.",
         "b": "The correct answer is “greater”. In a Francis turbine, the pressure at the inlet is higher than the pressure at the outlet because the water loses its pressure energy as it flows through the turbine, converting it to mechanical energy.",
         "c": "The correct answer is “greater”. In a Francis turbine, the pressure at the inlet is higher than the pressure at the outlet because the water loses its pressure energy as it flows through the turbine, converting it to mechanical energy.",
         "d": "The correct answer is “greater”. In a Francis turbine, the pressure at the inlet is higher than the pressure at the outlet because the water loses its pressure energy as it flows through the turbine, converting it to mechanical energy."
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "5) Available head in case of Francis turbine is converted <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>",
+      "question": " “5.” Available head in case of Francis turbine is converted <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>.",
       "answers": {
         "a": "completely into velocity head",
         "b": "completely into pressure head",
@@ -86,7 +86,7 @@
       "correctAnswer": "c",
       "difficulty": "beginner"
     },{
-      "question": "6) Cross section of blade of a Francis turbine is <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>",
+      "question": " “6.” Cross section of blade of a Francis turbine is <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>.",
       "answers": {
         "a": "oval",
         "b": "square ",
@@ -103,7 +103,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "7) A Francis turbine is <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>",
+      "question": " “7.” A Francis turbine is <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>.",
       "answers": {
         "a": "inward flow reaction turbine",
         "b": "inward flow impulse turbine",
@@ -120,7 +120,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "8) <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> is a major problem with Francis turbine",
+      "question": " “8.” <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> is a major problem with Francis turbine.",
       "answers": {
         "a": "Efficiency",
         "b": "Installation",
@@ -137,7 +137,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "9)The outlet of the Francis turbine is through:",
+      "question": " “9.” The outlet of the Francis turbine is through:",
       "answers": {
         "a": "Vane Blades",
         "b": "Draft tube",
@@ -154,7 +154,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "10)The power output of Francis turbine ranges from <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>",
+      "question": " “10.” The power output of the Francis turbine ranges from <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>.",
       "answers": {
         "a": "5 kW to 800 MW",
         "b": "1000 kW to 2000 MW",
